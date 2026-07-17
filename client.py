@@ -6,6 +6,7 @@ from mcp.client.stdio import stdio_client, StdioServerParameters
 
 async def main():
     print("Client Started")
+    print("Connecting")
 
     server_params = StdioServerParameters(
         command="python",
